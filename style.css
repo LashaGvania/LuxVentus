@@ -16,18 +16,14 @@ body {
     margin: 0 auto;
   }
   
-  .header-flex {
+  .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 45px; 
+    justify-content: space-between;
+    padding-top: 37px;
+    padding-bottom: 47px;
   }
-  
-  .logo-1 {
-    width: 234px;
-    height: 49px;
-  }
+
   
   .navbar {
     font-family: 'Poppins', sans-serif; 
@@ -37,18 +33,39 @@ body {
     color: rgba(38, 38, 38, 1);
     text-decoration: none;
   }
-  img {
-    width: 47px;
-    height: 47px;
-  }
-  .navbar:hover {
-    color: red;
-  }
+
   .navigation {
     display: flex;
-    gap: 50px;
+    align-items: center;
+
   }
-  
+
+  .navigation img {
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  .navigation img:hover {
+    transform: scale(1.1);
+  }
+
+  .navigation a {
+    padding: 8px 32px;
+    color: #262626;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.2s;
+  }
+
+
+
+  .navigation a:hover {
+    border-radius: 40px;
+    background-color: rgba(76, 224, 215, 1);
+    transform: scale(1.1);
+  }
+
   .first-section .container{
     background-image: url(./pexels-andrea-piacquadio-994234\ 1.png);
     background-size: cover;
