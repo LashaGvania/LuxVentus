@@ -8,12 +8,14 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: rgba(249, 249, 249, 1);
 }
 
   .container {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 84px;
   }
   
   .header {
@@ -24,15 +26,6 @@ body {
     padding-bottom: 47px;
   }
 
-  
-  .navbar {
-    font-family: 'Poppins', sans-serif; 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 21px;
-    color: rgba(38, 38, 38, 1);
-    text-decoration: none;
-  }
 
   .navigation {
     display: flex;
@@ -66,81 +59,67 @@ body {
     transform: scale(1.1);
   }
 
-  .first-section .container{
-    background-image: url(./pexels-andrea-piacquadio-994234\ 1.png);
-    background-size: cover;
-    height: 100vh;
-    border-radius: 20px;
-    margin-bottom: 73px;
-    background-repeat: no-repeat;
-  }
-  
-  .title-2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 18px;
-  }
-  
+
+
+
+/* firs section */
+
   .first-section {
+    background-image: url(./Photos/background.png);
+    background-repeat: no-repeat;
+    height: 560px;
+    background-size: cover;
+    max-width: 1272px;
+    width: 100%;
+    background-position: center;
+    margin: 0 auto;
+    padding-left: 57px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 22px 19px;
   }
   
-  .title-2 {
-    width: 189px;
-    height: 18px;
-    margin-top: 351px;
-    margin-left: 141px;
-    color: rgba(255, 255, 255, 1);
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
+  
+  .first-section span {
+    background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
-  .main-title {
-    width: 627px;
-    height: 69px;
-    margin-top: 22px;
-    margin-left: 141px;
-    font-family: Poppins;
-    font-size: 46px;
-    font-weight: 400;
-    line-height: 69px;
-    color: rgba(255, 255, 255, 1);
-  }
-  
-  .main-title span {
-    font-family: 'Poppins', sans-serif;
-    font-size: 46px;
-    font-weight: 700;
-    line-height: 69px;
-    text-align: left;
-    color: rgba(76, 224, 215, 1);
-  }
-  
-  .main-title .emphases {
-    color: rgba(139, 169, 244, 1);
-  }
-  
-  .description {
-    width: 494px;
-    height: 72px;
-    margin-top: 19px;
-    margin-left: 137px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    color: rgba(255, 255, 255, 1);
-  }
-  
-  .second-section .container {
+.first-section h4 {
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+}
+
+.first-section h2 {
+  font-size: 46px;
+  font-weight: 400;
+  color: rgb(255, 255, 255, 1);
+}
+
+.first-section p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(255, 255, 255, 1);
+  max-width: 494px;
+}
+
+
+/* Second Section */
+
+  .second-section {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     margin-bottom: 87.5px;
+    margin-top: 73px;
+  }
+
+  .second-section-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   
   .main-title-2 {
@@ -163,11 +142,14 @@ body {
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
+    transition: 0.2s;
+    cursor: pointer;
   
   }
-  
+
   .navigation-32:hover {
-    color: blue;
+    transform: translateY(-10px);
+    
   }
   
   .img1 {
@@ -193,7 +175,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
+    background-color: rgba(76, 224, 215, 1);
     height: 35.95px;
     border-radius: 40px;
     margin: 0px 29.9px 29.88px 30px;
@@ -202,18 +184,17 @@ body {
     font-weight: 700;
     line-height: 18px;
     text-align: center;
+    color: black;
+
   
   }
   
   .line {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    height: 1px;
+    background-color: rgba(188, 188, 188, 1);
     margin-bottom: 52.5px;
-    width: 1267px;
-    height:5px;
-    border: 1px;
-    color: rgb(181, 29, 29);
+    max-width: 1267px;
+    width: 100%;
   }
   
   
